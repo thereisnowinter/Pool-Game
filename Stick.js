@@ -3,7 +3,6 @@ function Stick () {
 }
 
 Stick.prototype.update = function () {
-  this.position.x++
 }
 
 Stick.prototype.draw = function () {
