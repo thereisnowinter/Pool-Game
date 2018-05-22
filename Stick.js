@@ -3,7 +3,13 @@ function Stick () {
 }
 
 Stick.prototype.update = function () {
+  // test
+  this.position = Mouse.position
+  if (Mouse.left.pressed) {
+    console.log('Mouse left pressed')
+  }
 }
+
 
 Stick.prototype.draw = function () {
   Canvas.drawImage(sprites.stick, this.position)
